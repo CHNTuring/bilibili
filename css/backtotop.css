@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+div#backtotop {
+	display: none;
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	width: 50px;
+	height: 50px;
+	background-color: #AAAAAA;
+	border-radius: 5px;
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+}
+
+div#backtotop a {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div#backtotop a img {
+	width: 80%;
+}
